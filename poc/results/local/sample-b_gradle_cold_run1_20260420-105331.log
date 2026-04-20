@@ -1,0 +1,30 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :clean UP-TO-DATE
+> Task :app:clean UP-TO-DATE
+> Task :common-util:clean
+> Task :domain-core:clean
+> Task :service-api:clean
+> Task :service-impl:clean UP-TO-DATE
+> Task :common-util:compileJava
+> Task :domain-core:compileJava
+> Task :service-api:compileJava
+> Task :service-impl:compileJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':service-impl:compileJava'.
+> Could not resolve all files for configuration ':service-impl:compileClasspath'.
+   > Could not find org.springframework:spring-context:.
+     Required by:
+         project ':service-impl'
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 2s
+10 actionable tasks: 7 executed, 3 up-to-date

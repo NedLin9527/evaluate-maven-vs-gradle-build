@@ -1,0 +1,5 @@
+.DS_Store
+.idea/
+.m2/
+.gradle-home/
+.gradle-project-cache/

@@ -1,0 +1,2 @@
+rootProject.name = 'sample-b-gradle'
+include 'common-util', 'domain-core', 'service-api', 'service-impl', 'app'

@@ -1,0 +1,45 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :common-util:compileJava UP-TO-DATE
+> Task :domain-core:compileJava UP-TO-DATE
+> Task :service-api:compileJava UP-TO-DATE
+> Task :service-impl:compileJava
+> Task :app:compileJava
+> Task :app:processResources NO-SOURCE
+> Task :app:classes
+> Task :app:compileTestJava
+> Task :app:processTestResources
+> Task :app:testClasses
+> Task :common-util:processResources NO-SOURCE
+> Task :common-util:classes UP-TO-DATE
+> Task :common-util:jar
+> Task :domain-core:processResources NO-SOURCE
+> Task :domain-core:classes UP-TO-DATE
+> Task :domain-core:jar
+> Task :service-api:processResources NO-SOURCE
+> Task :service-api:classes UP-TO-DATE
+> Task :service-api:jar
+> Task :service-impl:processResources NO-SOURCE
+> Task :service-impl:classes
+> Task :service-impl:jar
+> Task :app:test
+> Task :common-util:compileTestJava NO-SOURCE
+> Task :common-util:processTestResources NO-SOURCE
+> Task :common-util:testClasses UP-TO-DATE
+> Task :common-util:test NO-SOURCE
+> Task :domain-core:compileTestJava NO-SOURCE
+> Task :domain-core:processTestResources NO-SOURCE
+> Task :domain-core:testClasses UP-TO-DATE
+> Task :domain-core:test NO-SOURCE
+> Task :service-api:compileTestJava NO-SOURCE
+> Task :service-api:processTestResources NO-SOURCE
+> Task :service-api:testClasses UP-TO-DATE
+> Task :service-api:test NO-SOURCE
+> Task :service-impl:compileTestJava NO-SOURCE
+> Task :service-impl:processTestResources NO-SOURCE
+> Task :service-impl:testClasses UP-TO-DATE
+> Task :service-impl:test NO-SOURCE
+
+BUILD SUCCESSFUL in 5s
+12 actionable tasks: 9 executed, 3 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.4.1/userguide/configuration_cache_enabling.html

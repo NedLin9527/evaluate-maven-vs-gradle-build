@@ -1,0 +1,59 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.example:sample-a-maven >---------------------
+[INFO] Building sample-a-maven 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ sample-a-maven ---
+[INFO] Deleting /Users/nedlin/IdeaProjects/build-demo/poc/samples/sample-a/maven/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ sample-a-maven ---
+[INFO] skip non existing resourceDirectory /Users/nedlin/IdeaProjects/build-demo/poc/samples/sample-a/maven/src/main/resources
+[INFO] skip non existing resourceDirectory /Users/nedlin/IdeaProjects/build-demo/poc/samples/sample-a/maven/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ sample-a-maven ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug parameters release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ sample-a-maven ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ sample-a-maven ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 21] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ sample-a-maven ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.samplea.SampleAApplicationTests
+11:00:53.713 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.samplea.SampleAApplicationTests]: SampleAApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:00:53.753 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.samplea.SampleAApplication for test class com.example.samplea.SampleAApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.0)
+
+2026-04-20T11:00:53.887+08:00  INFO 85793 --- [           main] c.e.samplea.SampleAApplicationTests      : Starting SampleAApplicationTests using Java 21.0.10 with PID 85793 (started by nedlin in /Users/nedlin/IdeaProjects/build-demo/poc/samples/sample-a/maven)
+2026-04-20T11:00:53.888+08:00  INFO 85793 --- [           main] c.e.samplea.SampleAApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2026-04-20T11:00:54.213+08:00  INFO 85793 --- [           main] c.e.samplea.SampleAApplicationTests      : Started SampleAApplicationTests in 0.417 seconds (process running for 0.713)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.25 s -- in com.example.samplea.SampleAApplicationTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.136 s
+[INFO] Finished at: 2026-04-20T11:01:04+08:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,55 @@
+plugins {
+    id 'base'
+    id 'org.springframework.boot' version '3.5.0' apply false
+    id 'io.spring.dependency-management' version '1.1.7' apply false
+}
+
+allprojects {
+    group = 'com.example'
+    version = '0.0.1-SNAPSHOT'
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+subprojects {
+    apply plugin: 'java-library'
+    apply plugin: 'io.spring.dependency-management'
+
+    java {
+        toolchain {
+            languageVersion = JavaLanguageVersion.of(21)
+        }
+    }
+
+    dependencyManagement {
+        imports {
+            mavenBom "org.springframework.boot:spring-boot-dependencies:3.5.0"
+        }
+    }
+
+    tasks.withType(Test).configureEach {
+        useJUnitPlatform()
+        jvmArgs '-XX:+EnableDynamicAgentLoading'
+    }
+}
+
+project(':service-impl') {
+    dependencies {
+        api project(':service-api')
+        implementation 'org.springframework:spring-context'
+    }
+}
+
+project(':service-api') {
+    dependencies {
+        api project(':domain-core')
+    }
+}
+
+project(':domain-core') {
+    dependencies {
+        api project(':common-util')
+    }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.samplea.SampleAApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-20T02:59:07.702Z" hostname="NedsMBPro.local" time="0.791">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.samplea.SampleAApplicationTests" time="0.272"/>
+  <system-out><![CDATA[10:59:07.746 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.samplea.SampleAApplicationTests]: SampleAApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:59:07.783 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.samplea.SampleAApplication for test class com.example.samplea.SampleAApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.0)
+
+2026-04-20T10:59:07.905+08:00  INFO 85240 --- [    Test worker] c.e.samplea.SampleAApplicationTests      : Starting SampleAApplicationTests using Java 21.0.10 with PID 85240 (started by nedlin in /Users/nedlin/IdeaProjects/build-demo/poc/samples/sample-a/gradle)
+2026-04-20T10:59:07.905+08:00  INFO 85240 --- [    Test worker] c.e.samplea.SampleAApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2026-04-20T10:59:08.217+08:00  INFO 85240 --- [    Test worker] c.e.samplea.SampleAApplicationTests      : Started SampleAApplicationTests in 0.393 seconds (process running for 0.762)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,166 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] sample-b-maven-parent                                              [pom]
+[INFO] common-util                                                        [jar]
+[INFO] domain-core                                                        [jar]
+[INFO] service-api                                                        [jar]
+[INFO] service-impl                                                       [jar]
+[INFO] app                                                                [jar]
+[INFO] 
+[INFO] -----------------< com.example:sample-b-maven-parent >------------------
+[INFO] Building sample-b-maven-parent 0.0.1-SNAPSHOT                      [1/6]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] ----------------------< com.example:common-util >-----------------------
+[INFO] Building common-util 0.0.1-SNAPSHOT                                [2/6]
+[INFO]   from common-util/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ common-util ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/nedlin/IdeaProjects/build-demo/poc/samples/sample-b/maven/common-util/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ common-util ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ common-util ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/nedlin/IdeaProjects/build-demo/poc/samples/sample-b/maven/common-util/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ common-util ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ common-util ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ----------------------< com.example:domain-core >-----------------------
+[INFO] Building domain-core 0.0.1-SNAPSHOT                                [3/6]
+[INFO]   from domain-core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ domain-core ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/nedlin/IdeaProjects/build-demo/poc/samples/sample-b/maven/domain-core/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ domain-core ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ domain-core ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/nedlin/IdeaProjects/build-demo/poc/samples/sample-b/maven/domain-core/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ domain-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ domain-core ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ----------------------< com.example:service-api >-----------------------
+[INFO] Building service-api 0.0.1-SNAPSHOT                                [4/6]
+[INFO]   from service-api/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ service-api ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/nedlin/IdeaProjects/build-demo/poc/samples/sample-b/maven/service-api/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ service-api ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ service-api ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/nedlin/IdeaProjects/build-demo/poc/samples/sample-b/maven/service-api/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ service-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ service-api ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ----------------------< com.example:service-impl >----------------------
+[INFO] Building service-impl 0.0.1-SNAPSHOT                               [5/6]
+[INFO]   from service-impl/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ service-impl ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/nedlin/IdeaProjects/build-demo/poc/samples/sample-b/maven/service-impl/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ service-impl ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ service-impl ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/nedlin/IdeaProjects/build-demo/poc/samples/sample-b/maven/service-impl/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ service-impl ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ service-impl ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --------------------------< com.example:app >---------------------------
+[INFO] Building app 0.0.1-SNAPSHOT                                        [6/6]
+[INFO]   from app/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ app ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/nedlin/IdeaProjects/build-demo/poc/samples/sample-b/maven/app/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ app ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ app ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ app ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ app ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.sampleb.SampleBApplicationTests
+11:02:58.375 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.sampleb.SampleBApplicationTests]: SampleBApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:02:58.419 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.sampleb.SampleBApplication for test class com.example.sampleb.SampleBApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.0)
+
+2026-04-20T11:02:58.552+08:00  INFO 86293 --- [           main] c.e.sampleb.SampleBApplicationTests      : Starting SampleBApplicationTests using Java 21.0.10 with PID 86293 (started by nedlin in /Users/nedlin/IdeaProjects/build-demo/poc/samples/sample-b/maven/app)
+2026-04-20T11:02:58.552+08:00  INFO 86293 --- [           main] c.e.sampleb.SampleBApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2026-04-20T11:02:58.887+08:00  INFO 86293 --- [           main] c.e.sampleb.SampleBApplicationTests      : Started SampleBApplicationTests in 0.429 seconds (process running for 0.73)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.28 s -- in com.example.sampleb.SampleBApplicationTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for sample-b-maven-parent 0.0.1-SNAPSHOT:
+[INFO] 
+[INFO] sample-b-maven-parent .............................. SUCCESS [  0.001 s]
+[INFO] common-util ........................................ SUCCESS [  0.195 s]
+[INFO] domain-core ........................................ SUCCESS [  0.018 s]
+[INFO] service-api ........................................ SUCCESS [  0.010 s]
+[INFO] service-impl ....................................... SUCCESS [  0.014 s]
+[INFO] app ................................................ SUCCESS [ 11.601 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.947 s
+[INFO] Finished at: 2026-04-20T11:03:09+08:00
+[INFO] ------------------------------------------------------------------------
